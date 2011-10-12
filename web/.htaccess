@@ -1,0 +1,8 @@
+Options Indexes FollowSymLinks MultiViews
+Order allow,deny
+Allow from 192.168.1.0/255.255.255.0 127.0.0.0/255.0.0.0
+AuthType Basic
+AuthName "These brownies are delicious"
+AuthUserFile /mpp/web/private/.htpasswd
+Require valid-user
+Satisfy any
